@@ -7,19 +7,39 @@
     body{
         font-family: serif;
     }
-    .itiran{
-        background-color: ;
-    }
+   .hmidasi{
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+  top:0;
+}
+
+.midasi:before, .midasi:after { 
+  position: absolute;
+  top: 0;
+  content:'';
+  width: 8px;
+  height: 100%;
+  display: inline-block;
+}
+.midasi:before {
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  left: 0;
+}
+.midasi:after {
+  content: '';
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  right: 0;
+}
     .logo{
         text-align: center;
         background-color: ;
         font-size: 130%;
-    }
-    .setumei{
-        background-color: ;
-    }
-    .sns{
-        background-color: ;
     }
     .balloon2-left {
   position: relative;
@@ -63,10 +83,6 @@
 }
 .watasi{
  color: red;
-}
-.koukoku{
-  background-color: white;
-}
    .home{
   background-color: darkgray;
 }
@@ -83,21 +99,21 @@
      <ul class="home">
     <li><a href="https://omiyamamasakazu.github.io/github.io/" class="top">ホーム</a></li><li class="sousyoku">　>　</li><li><a href="template.html" class="top">5/30</a></li>
   </ul>
-     <h1><span class="itiran">　ブログ一覧　</span></h1>
+     <h2><span class="midasi">　ブログ一覧　</span></h2>
      <Ul>
         <li><a href="https://omiyamamasakazu.github.io/github.io.5.27/index.html">5/27日</a></li>
      </Ul>
-     <h2><span class="setumei">　御宮間ブログとは　</span></h2>
+     <h2><span class="smidasi">　御宮間ブログとは　</span></h2>
      <div class="balloon2-left">
       <p>このブログは<span class="watasi">私</span>、御宮間 雅一寿がお送りする、雑多で適当なブログです。<br>
         不定期で更新していきますので、ブックマークよろしくお願いします。
       </p>
      </div>
-     <h2><span class="sns">　各種SNS　</span></h2>
+     <h2><span class="midasi">　各種SNS　</span></h2>
      <ul>
       <li><a href="https://twitter.com/Sorasoramoittyo">twitter</a></li>
      </ul>
-     <h2><span class="koukoku">　広告　</span></h2>
+     <h2><span class="midasi">　広告　</span></h2>
      <a href="https://editor.p5js.org/yuki_cha/full/mdpTttzdj"><img src="img/314master.png" width="200" height="200"></a>
      <a href="https://www.guiltygear.com/ggst/jp/"><img src="img/GGST.jpeg" width="240" height="126"></a>
  </body>
